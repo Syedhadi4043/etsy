@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0px 1px 1px lightgray;
+}
+.search{
+    height: 10px;
+    width: 600px;
+    border: none;
+    margin-left: 10px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+.logo>img{
+    height:50px ;
+    width: 100px;
+}
+.src{
+    border: 3px solid black;
+border-radius: 30px;
+margin-left: 10px;
+
+
+}
+input{border: none;}
+.signin{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+}
+
+.img-card-area{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+margin-top: 15px;
+
+}
+.circle>img{ height: 150px;
+width: 150px;
+border-radius: 100px;
+padding: 20px;
+}
+h2{ 
+    text-align: center;
+    padding-top: 20px;
+}
+.hover-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.boxes>img{
+    height: 250px;
+    width: 150px;
+padding: 10px;
+border-radius: 10px;
+}
+.price-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  text-align: center;
+  border-radius: 30px;
+}
+.p-box>img{
+    height: 250px;
+    width: 175px;
+padding: 30px;
+border: 30px;
+}
+.desc{ background-color: orange;}
+.d-box{ 
+    display: flex;
+    flex-wrap: wrap;
+justify-conten: space-between;
+}
+
+.boxes:hover{
+    border-radius: 100px;
+    scale: 1.1;
+}
